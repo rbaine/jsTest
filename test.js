@@ -5,7 +5,7 @@ var arr = [{id:1, name:"Rod"}, {id:2, name:"Cyndy"}, {id:3, name:"Connor"}, {id:
 //	});
 	
 var newArr = arr.filter( function name(element, index, array) {
-	if (element.id > 2) {
+	if (element.id < 2) {
 		return element;
 	};	
 });
