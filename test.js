@@ -1,6 +1,6 @@
 
 
-var arr = [{id:1, name:"Rod1s"}, {id:2, name:"Cyndy"}, {id:3, name:"Connor"}, {id:4, name:"Daxter"}];
+var arr = [{id:1, name:"Rod"}, {id:2, name:"Cyndy"}, {id:3, name:"Connor"}, {id:4, name:"Daxter"}];
 
 //todo: i added this sort function back in - RB
 arr.sort(function (a, b) {
