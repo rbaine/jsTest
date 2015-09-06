@@ -22,11 +22,11 @@ gulp.task('todo', function() {
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-   return gulp.src('test.js')
+   // return gulp.src('test.js')
       //  .pipe(concat('main.js'))
-       .pipe(uglify())
-       .pipe(rename('test.min.js'))
-       .pipe(gulp.dest('./'));
+       // .pipe(uglify())
+       // .pipe(rename('test.min.js'))
+       // .pipe(gulp.dest('./'));
 
 });
 
