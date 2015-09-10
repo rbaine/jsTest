@@ -13,9 +13,10 @@ var newArr = arr.filter( function name(element, index, array) {
 
 
 // todo: clean up this file
-
+console.log("This is the original array...");
 console.log(arr);
 console.log("\n");
+console.log("This is the filtered array.");
 console.log(newArr);
 
 
