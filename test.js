@@ -31,3 +31,13 @@ console.log(x());
 
 // testing VS Code GIT integration and debug features
 // testing wincred
+
+
+function test(a, b) {
+
+	return a * b;
+
+}
+
+
+console.log(test(5,3));
