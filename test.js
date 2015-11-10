@@ -1,6 +1,3 @@
-
-
-
 var arr = [{id:1, name:"Rod"}, {id:2, name:"Cyndy"}, {id:3, name:"Connor"}, {id:4, name:"Daxter"}];
 
 //todo: i added this sort function back in - RB
@@ -16,15 +13,17 @@ var newArr = arr.filter( function name(element, index, array) {
 
 
 // todo: clean up this file
-
+console.log("This is the original array...");
 console.log(arr);
 console.log("\n");
+console.log("This is the filtered array.");
 console.log(newArr);
 
 
 //todo: added this function... :) :)
 var x = function(){
 	return "super cool...";
+	return "super cool node app...";
 };
 
 console.log(x());
