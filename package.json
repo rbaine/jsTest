@@ -2,15 +2,16 @@
   "name": "jsTest",
   "version": "0.0.1",
   "dependencies": {
+    "chalk": "^1.1.1",
     "gulp": "*",
-    "gulp-util": "*",
-    "gulp-rename": "*",
-    "gulp-livereload": "*",
     "gulp-concat": "*",
-    "gulp-uglify": "*",
-    "gulp-watch": "*",
     "gulp-jshint": "*",
-    "gulp-todo": "*"
+    "gulp-livereload": "*",
+    "gulp-rename": "*",
+    "gulp-todo": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*"
   },
   "devDependencies": {
     "gulp": "^3.9.0"
